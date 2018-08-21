@@ -18,11 +18,11 @@ for (div of divs) {
   div.addEventListener('click', bubble, true)
 }
 
-// main.addEventListener('click', (event) => {
-//   alert("Hey you clicked me!")
-// })
+main.addEventListener('click', (event) => {
+  alert("Hey you clicked me!")
+})
 
-// paragraph.addEventListener('click', (event) => {
-//   alert("You clicked the p!!!")
-//   paragraph.style.backgroundColor = 'yellow'
-// })
+paragraph.addEventListener('click', (event) => {
+  alert("You clicked the p!!!")
+  paragraph.style.backgroundColor = 'yellow'
+})
