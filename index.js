@@ -5,6 +5,7 @@ let divs = document.querySelectorAll('div')
 
 function bubble(event){
   console.log(this.firstChild.nodeValue.trim() + ' bubbled')
+  this.style.backgroundColor = 'cyan'
 }
 
 for (div of divs) {
