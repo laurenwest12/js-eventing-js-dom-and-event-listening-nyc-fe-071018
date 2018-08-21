@@ -1,11 +1,13 @@
 const main = document.querySelector('#main')
 const paragraph = document.querySelector('p')
 
-main.addEventListener('click', (event) => {
-  alert("Hey you clicked me!")
-})
+let divs = document.querySelectorAll('div')
 
-paragraph.addEventListener('click', (event) => {
-  alert("You clicked the p!!!")
-  paragraph.style.backgroundColor = 'yellow'
-})
+// main.addEventListener('click', (event) => {
+//   alert("Hey you clicked me!")
+// })
+
+// paragraph.addEventListener('click', (event) => {
+//   alert("You clicked the p!!!")
+//   paragraph.style.backgroundColor = 'yellow'
+// })
